@@ -1,5 +1,4 @@
-sample-url: 
-# https://github.com/sigsep/sigsep-mus-db/releases/download/v0.4.0/MUSDB18-7-STEMS.zip
+sample-url: https://github.com/RayyanMasood/msbdb/releases/download/v1.0.0/MSBDB24_wav_stems.zip
 
 # global dataset samplerate
 sample_rate: 44100.0
@@ -36,17 +35,17 @@ targets:
     speech: 1
 
 validation_tracks:
-- 'Actions - One Minute Smile'
-- 'Clara Berry And Wooldog - Waltz For My Victims'
-- 'Johnny Lokke - Promises & Lies'
-- 'Patrick Talbot - A Reason To Leave'
-- 'Triviul - Angelsaint'
-- 'Alexander Ross - Goodbye Bolero'
-- 'Fergessen - Nos Palpitants'
-- 'Leaf - Summerghost'
-- 'Skelpolu - Human Mistakes'
-- 'Young Griffo - Pennies'
-- 'ANiMAL - Rockshow'
+- 'final_output_0'
+- 'final_output_17'
+- 'final_output_19'
+- 'final_output_32'
+- 'final_output_47'
+- 'final_output_53'
+- 'final_output_64'
+- 'final_output_69'
+- 'final_output_76'
+- 'final_output_99'
+- 'final_output_146'
 - 'James May - On The Line'
 - 'Meaxic - Take A Step'
 - 'Traffic Experiment - Sirens'
