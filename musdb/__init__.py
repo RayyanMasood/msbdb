@@ -245,7 +245,7 @@ class DB(object):
                 else:
                     # parse stem files
                     for track_name in sorted(files):
-                        if not track_name.endswith(".stem.mp4"):
+                        if not track_name.endswith(".mp4"):
                             continue
                         if subset == "train":
                             if (
