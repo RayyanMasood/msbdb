@@ -108,7 +108,7 @@ class DB(object):
             if not self._check_exists():
                 raise RuntimeError(
                     "Dataset not found."
-                    + "You can use download=True to download a sample version of the dataset"
+                    + " You can use download=True to download a sample version of the dataset" + "root: " + self.root
                 )
 
         self.sample_rate = sample_rate
