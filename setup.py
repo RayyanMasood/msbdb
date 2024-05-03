@@ -3,7 +3,7 @@ from importlib.machinery import SourceFileLoader
 
 
 version = SourceFileLoader(
-    'musdb.version', 'msbdb/version.py'
+    'musdb.version', 'musdb/version.py'
 ).load_module()
 
 with open('README.md', 'r') as fdesc:
@@ -46,7 +46,7 @@ if __name__ == "__main__":
         ],
 
         package_data={
-            'msbdb': ['configs/msb.yaml'],
+            'musdb': ['configs/msb.yaml'],
         },
 
         extras_require={  # Optional
