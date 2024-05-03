@@ -3,7 +3,7 @@ script that demonstrate the use of musdb for evaluating separation results of mu
 
 """
 
-import musdb
+import msbdb
 import museval
 
 

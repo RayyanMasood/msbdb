@@ -9,7 +9,7 @@ from tqdm import tqdm
 import zipfile
 import yaml
 import errno
-import musdb
+import msbdb
 import shutil
 import os
 import tempfile
