@@ -97,7 +97,7 @@ class DB(object):
         if setup_file is not None:
             setup_path = op.join(self.root, setup_file)
         else:
-            setup_path = os.path.join(musdb.__path__[0], "configs", "mus.yaml")
+            setup_path = os.path.join(musdb.__path__[0], "configs", "msb.yaml")
 
         with open(setup_path, "r") as f:
             self.setup = yaml.safe_load(f)

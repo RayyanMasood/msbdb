@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
         # Description
         description='Python parser for the SIGSEP MUSDB18 dataset',
-        url='https://github.com/sigsep/sigsep-mus-db',
+        url='https://github.com/RayyanMasood/msbdb',
 
         # Your contact information
         author='Fabian-Robert Stoeter',
@@ -46,7 +46,7 @@ if __name__ == "__main__":
         ],
 
         package_data={
-            'musdb': ['configs/mus.yaml'],
+            'msbdb': ['configs/msb.yaml'],
         },
 
         extras_require={  # Optional
