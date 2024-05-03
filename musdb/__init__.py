@@ -250,20 +250,20 @@ class DB(object):
                         if subset == "train":
                             if (
                                 split == "train"
-                                and track_name.split(".stem.mp4")[0]
+                                and track_name.split(".mp4")[0]
                                 in self.setup["validation_tracks"]
                             ):
                                 continue
                             elif (
                                 split == "valid"
-                                and track_name.split(".stem.mp4")[0]
+                                and track_name.split(".mp4")[0]
                                 not in self.setup["validation_tracks"]
                             ):
                                 continue
 
                         # create new mus track
                         track = MultiTrack(
-                            name=track_name.split(".stem.mp4")[0],
+                            name=track_name.split(".mp4")[0],
                             path=op.join(subset_folder, track_name),
                             subset=subset,
                             stem_id=self.setup["stem_ids"]["mixture"],
